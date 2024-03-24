@@ -50,7 +50,7 @@ export const navigation = [
   },
   {
     id: "1",
-    title: "Precios",
+    title: "Paquetes Web",
     url: "#pricing",
   },
   // {
