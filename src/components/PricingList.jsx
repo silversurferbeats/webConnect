@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import { check } from "../assets";
 import { pricing } from "../constants";
 import Button from "./Button";
@@ -27,13 +28,26 @@ const PricingList = () => {
               </>
             )}
           </div>
-          <Button
-            className="w-full mb-6"
-            onClick={() => isAuthenticated ? alert("Formulario") : loginWithRedirect()}
-            white={!!item.price}
-          >
-            {item.price ? "Get started" : "Contact us"}
-          </Button>
+
+          {
+            isAuthenticated ?
+            <NavLink to="/form">
+              <Button
+                className="w-full mb-6"
+                white={!!item.price}
+              >
+                {item.price ? "Get started" : "Contact us"}
+              </Button>
+            </NavLink> :
+            <Button
+              className="w-full mb-6"
+              onClick={() => loginWithRedirect()}
+              white={!!item.price}
+            >
+              {item.price ? "Get started" : "Contact us"}
+            </Button>
+          }
+
           <ul>
             {item.features.map((feature, index) => (
               <li

@@ -1,4 +1,4 @@
-import { curve, heroBackground, webConnect } from "../assets";
+import { curve, heroBackground, webConnect, webconnectHeroBackground } from "../assets";
 import Button from "./Button";
 import Section from "./Section";
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
@@ -27,14 +27,15 @@ const Hero = () => {
           <h1 className="h1 mb-6">
             Explore la posibilidad de&nbsp;crear&nbsp;tu Sitio con {` `}
             <span className="inline-block relative">
-              Web Connect{" "}
-              <img
+              Web {" "}
+              <span className="text-blue-500">Connect</span>
+              {/* <img
                 src={curve}
                 className="absolute top-full left-0 w-full xl:-mt-2"
                 width={624}
                 height={28}
                 alt="Curve"
-              />
+              /> */}
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
@@ -83,15 +84,15 @@ const Hero = () => {
 
             {/* <Gradient /> */}
           </div>
-          <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
+          {/* <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
             <img
-              src={heroBackground}
+              src={webconnectHeroBackground}
               className="w-full"
               width={1440}
               height={1800}
               alt="hero"
             />
-          </div>
+          </div> */}
 
           <BackgroundCircles />
         </div>

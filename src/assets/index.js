@@ -24,6 +24,7 @@ import background from "./background.jpg";
 import curve from "./hero/curve.png";
 import robot from "./hero/robot.jpg";
 import heroBackground from "./hero/hero-background.jpg";
+import webconnectHeroBackground from "./webconnectHeroBackground.png"
 
 import curve1 from "./collaboration/curve-1.svg";
 import curve2 from "./collaboration/curve-2.svg";
@@ -102,6 +103,7 @@ export {
   curve,
   robot,
   heroBackground,
+  webconnectHeroBackground,
   curve1,
   curve2,
   discord,

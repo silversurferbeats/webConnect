@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useLocation } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
 import { navigation } from "../constants";
 import { useAuth0 } from '@auth0/auth0-react'
@@ -33,13 +33,14 @@ const Header = () => {
 
   return (
     <div
-      className={`fixed top-0 left-0 w-full z-50  border-b border-n-6 lg:bg-n-8/90 lg:backdrop-blur-sm ${openNavigation ? "bg-n-8" : "bg-n-8/90 backdrop-blur-sm"
-        }`}
+      className={`fixed top-0 left-0 w-full z-50  border-b border-n-6 lg:bg-n-8/90 lg:backdrop-blur-sm ${openNavigation ? "bg-n-8" : "bg-n-8/90 backdrop-blur-sm"}`}
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
-        <a className="block w-[4rem] xl:mr-8" href="#hero">
-          <img src={logoGrande} width={190} height={40} alt="logoGrande" />
-        </a>
+        <NavLink to="/">
+          <div className="block w-[4rem] xl:mr-8">
+            <img src={logoGrande} width={190} height={40} alt="logoGrande" />
+          </div>
+        </NavLink>
 
         <nav
           className={`${openNavigation ? "flex" : "hidden"
