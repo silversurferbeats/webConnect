@@ -25,6 +25,7 @@ import curve from "./hero/curve.png";
 import robot from "./hero/robot.jpg";
 import heroBackground from "./hero/hero-background.jpg";
 import webconnectHeroBackground from "./webconnectHeroBackground.png"
+import backgroundWebConnect from "./backgroundWebConnect.png"
 
 import curve1 from "./collaboration/curve-1.svg";
 import curve2 from "./collaboration/curve-2.svg";
@@ -51,6 +52,7 @@ import roadmap1 from "./roadmap/image-1.png";
 import roadmap2 from "./roadmap/image-2.png";
 import roadmap3 from "./roadmap/image-3.png";
 import roadmap4 from "./roadmap/image-4.png";
+import cohete from "./roadmap/coheteLanzamiento.png"
 import undone from "./roadmap/undone.svg";
 
 import notification1 from "./notification/image-1.png";
@@ -104,6 +106,7 @@ export {
   robot,
   heroBackground,
   webconnectHeroBackground,
+  backgroundWebConnect,
   curve1,
   curve2,
   discord,
@@ -126,6 +129,7 @@ export {
   roadmap2,
   roadmap3,
   roadmap4,
+  cohete,
   undone,
   notification1,
   notification2,

@@ -28,11 +28,10 @@ import {
   roadmap2,
   roadmap3,
   roadmap4,
+  cohete,
   searchMd,
   slack,
   sliders04,
-  telegram,
-  twitter,
   yourlogo,
   whatsapp,
 } from "../assets";
@@ -124,7 +123,7 @@ export const roadmap = [
     text: "En esta etapa final, el sitio web completado se somete a pruebas exhaustivas para garantizar su funcionamiento óptimo en diferentes dispositivos y navegadores. Una vez que se han realizado todas las correcciones y se ha obtenido la aprobación final del cliente, el sitio se lanza oficialmente y se pone a disposición del público.",
     date: "paso 4",
     status: "done",
-    imageUrl: roadmap4,
+    imageUrl: cohete,
   },
 ];
 
