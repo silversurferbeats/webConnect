@@ -1,4 +1,5 @@
 import { backgroundWebConnect } from "../assets";
+import { whatsapp } from "../assets";
 import Button from "./Button";
 import Section from "./Section";
 import { BackgroundCircles, BottomLine } from "./design/Hero";
@@ -31,10 +32,15 @@ const Hero = () => {
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
           tu socio en diseño y desarrollo web
           </p>
-          <Button href="#roadmap" white>
-            Comienza ahora
-          </Button>
+            <Button href="#roadmap" white>
+              Comienza ahora
+            </Button>
+            <Notification
+              className="absolute transition-transform duration-500 ease-in-out transform translate-x-0 -right-[5.5rem] bottom-[1rem] w-[18rem] xl:flex"
+              title="Contactanos por Whatsapp"
+            />
         </div>
+
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
           <div className="relative z-1 p-0.5 rounded-2xl ">
             <div className="relative bg-n-8 rounded-[1rem]">

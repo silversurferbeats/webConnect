@@ -20,9 +20,6 @@ import chromecast from "./chrome-cast.svg";
 import sliders04 from "./sliders-04.svg";
 import loading from "./loading.png";
 
-import curve from "./hero/curve.png";
-import robot from "./hero/robot.jpg";
-import heroBackground from "./hero/hero-background.jpg";
 import backgroundWebConnect from "./backgroundWebConnect.png"
 
 import curve1 from "./collaboration/curve-1.svg";
@@ -35,10 +32,6 @@ import photoshop from "./collaboration/photoshop.png";
 import protopie from "./collaboration/protopie.png";
 import raindrop from "./collaboration/raindrop.png";
 import slack from "./collaboration/slack.png";
-
-import service1 from "./services/service-1.png";
-import service2 from "./services/service-2.png";
-import service3 from "./services/service-3.png";
 
 import lines from "./pricing/lines.svg";
 import stars from "./pricing/stars.svg";
@@ -70,12 +63,10 @@ import benefitIcon3 from "./benefits/icon-3.svg";
 import benefitIcon4 from "./benefits/icon-4.svg";
 import benefitImage2 from "./benefits/image-2.png";
 
-import discordBlack from "./socials/discord.svg";
 import facebook from "./socials/facebook.svg";
 import instagram from "./socials/instagram.svg";
-import telegram from "./socials/telegram.svg";
-import twitter from "./socials/twitter.svg";
-import whatsapp from "./whatsapp.png"
+import whatsapp from "./socials/whatsapp.svg"
+import whatsappBlack from "./socials/whatsapp-black.svg"
 
 export {
   webConnect,
@@ -99,9 +90,6 @@ export {
   chromecast,
   sliders04,
   loading,
-  curve,
-  robot,
-  heroBackground,
   backgroundWebConnect,
   curve1,
   curve2,
@@ -113,9 +101,6 @@ export {
   protopie,
   raindrop,
   slack,
-  service1,
-  service2,
-  service3,
   lines,
   stars,
   coins,
@@ -142,10 +127,8 @@ export {
   benefitIcon3,
   benefitIcon4,
   benefitImage2,
-  discordBlack,
   facebook,
   instagram,
-  telegram,
-  twitter,
   whatsapp,
+  whatsappBlack,
 };
