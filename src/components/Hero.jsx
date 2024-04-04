@@ -13,7 +13,7 @@ const Hero = () => {
 
   return (
     <Section
-      className="pt-[12rem] -mt-[5.25rem]"
+      className="pt-[12rem] -mt-[5.25rem] relative"
       crosses
       crossesOffset="lg:translate-y-[5.25rem]"
       customPaddings
@@ -36,7 +36,7 @@ const Hero = () => {
           </Button>
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
-          <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">
+          <div className="relative z-1 p-0.5 rounded-2xl ">
             <div className="relative bg-n-8 rounded-[1rem]">
               <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
                 <WebconnectModel />
@@ -66,6 +66,8 @@ const Hero = () => {
               height={1800}
               alt="hero"
             />
+            {/* Aquí agregamos el overlay de gradiente */}
+            <div className="overlay"></div>
           </div>
           <BackgroundCircles />
         </div>

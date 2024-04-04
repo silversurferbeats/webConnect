@@ -41,7 +41,6 @@ const Header = () => {
             <img src={logoGrande} width={190} height={40} alt="logoGrande" />
           </div>
         </NavLink>
-
         <nav
           className={`${openNavigation ? "flex" : "hidden"
             } fixed top-[5rem] left-0 right-0 bottom-0 bg-n-8 lg:static lg:flex lg:mx-auto lg:bg-transparent`}
@@ -65,14 +64,12 @@ const Header = () => {
 
           <HamburgerMenu />
         </nav>
-
-        <Profile />
+        <Profile  />
         {
           isAuthenticated ?
-            <Button className='hidden lg:flex m-4' onClick={() => logout()} >Logout</Button> :
-            <Button className='hidden lg:flex m-4' onClick={() => loginWithRedirect()} >Login</Button>
+            <Button className='btn-login' onClick={() => logout()} >Logout</Button> :
+            <Button className='btn-login' onClick={() => loginWithRedirect()} >Login</Button>
         }
-
         <Button
           className="ml-auto lg:hidden"
           px="px-3"

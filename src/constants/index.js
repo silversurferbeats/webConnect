@@ -95,7 +95,7 @@ export const roadmap = [
   {
     id: "0",
     title: "Consulta",
-    text: "se lleva a cabo una reunión inicial entre el cliente y el equipo de desarrollo web para discutir los requisitos del proyecto, los objetivos comerciales, las preferencias de diseño y cualquier otra consideración relevante.",
+    text: "Se lleva a cabo una reunión inicial entre el cliente y el equipo de desarrollo web para discutir los requisitos del proyecto, los objetivos comerciales, las preferencias de diseño y cualquier otra consideración relevante.",
     date: "paso 1",
     status: "done",
     imageUrl: roadmap1,
@@ -104,18 +104,20 @@ export const roadmap = [
   {
     id: "1",
     title: "Tiempo Estimado y Aprovacion",
-    text: "el equipo de desarrollo web evalúa los requisitos del proyecto y proporciona al cliente un estimado del tiempo necesario para completar el trabajo. Una vez que se establece un acuerdo sobre el alcance del proyecto y los plazos, el cliente aprueba formalmente el plan propuesto.",
+    text: "El equipo de desarrollo web evalúa los requisitos del proyecto y proporciona al cliente un estimado del tiempo necesario para completar el trabajo. Una vez que se establece un acuerdo sobre el alcance del proyecto y los plazos, el cliente aprueba formalmente el plan propuesto.",
     date: "paso 2",
     status: "progress",
     imageUrl: roadmap2,
+    colorful: true,
   },
   {
     id: "2",
     title: "Diseño y Desarrollo",
-    text: " el equipo de desarrollo web crea los diseños visuales y la arquitectura de la página web, incorporando los elementos gráficos y funcionales según las especificaciones del cliente. Se realizan revisiones iterativas para garantizar que el diseño y la funcionalidad cumplan con las expectativas del cliente.",
+    text: "El equipo de desarrollo web crea los diseños visuales y la arquitectura de la página web, incorporando los elementos gráficos y funcionales según las especificaciones del cliente. Se realizan revisiones iterativas para garantizar que el diseño y la funcionalidad cumplan con las expectativas del cliente.",
     date: "paso 3",
     status: "progress",
     imageUrl: roadmap3,
+    colorful: true,
   },
   {
     id: "3",
@@ -124,6 +126,7 @@ export const roadmap = [
     date: "paso 4",
     status: "done",
     imageUrl: cohete,
+    colorful: true,
   },
 ];
 
