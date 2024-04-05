@@ -7,7 +7,6 @@ import {
   chromecast,
   disc02,
   discord,
-  discordBlack,
   facebook,
   figma,
   file02,
@@ -33,7 +32,7 @@ import {
   slack,
   sliders04,
   yourlogo,
-  whatsapp,
+  whatsappBlack,
 } from "../assets";
 
 export const navigation = [
@@ -317,18 +316,6 @@ export const benefits = [
 ];
 
 export const socials = [
-  // {
-  //   id: "0",
-  //   title: "Discord",
-  //   iconUrl: discordBlack,
-  //   url: "#",
-  // },
-  // {
-  //   id: "1",
-  //   title: "Twitter",
-  //   iconUrl: twitter,
-  //   url: "#",
-  // },
   {
     id: "0",
     title: "Instagram",
@@ -344,7 +331,7 @@ export const socials = [
   {
     id: "2",
     title: "Whatsapp",
-    iconUrl: whatsapp,
-    url: "#",
+    iconUrl: whatsappBlack,
+    url: "https://wa.me/5493543608580",
   },
 ];
