@@ -5,12 +5,21 @@ import Section from "./Section";
 import { BackgroundCircles, BottomLine } from "./design/Hero";
 import { heroIcons } from "../constants";
 import { ScrollParallax } from "react-just-parallax";
-import { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import Notification from "./Notification";
 import WebconnectModel from "./WebconnectModel";
 
 const Hero = () => {
+  const [showNotification, setShowNotification] = useState(false);
   const parallaxRef = useRef(null);
+
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setShowNotification(true);
+    }, 100);
+
+    return () => clearTimeout(timeout);
+  }, []);
 
   return (
     <Section
@@ -32,13 +41,13 @@ const Hero = () => {
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
           tu socio en diseño y desarrollo web
           </p>
-            <Button href="#roadmap" white>
-              Comienza ahora
-            </Button>
-            <Notification
-              className="absolute transition-transform duration-500 ease-in-out transform translate-x-0 -right-[5.5rem] bottom-[1rem] w-[18rem] xl:flex"
-              title="Contactanos por Whatsapp"
-            />
+          <Button href="#roadmap" white>
+            Comienza ahora
+          </Button>
+          <Notification
+            className="notification absolute left-20 lg:left-0 bottom-[20rem] lg:bottom-[0rem] w-[18rem] h-[6rem] xl:flex"
+            title="Contactanos por Whatsapp"
+          />
         </div>
 
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
@@ -72,7 +81,7 @@ const Hero = () => {
               height={1800}
               alt="hero"
             />
-            {/* Aquí agregamos el overlay de gradiente */}
+            {/* here add overlay gradient: */}
             <div className="overlay"></div>
           </div>
           <BackgroundCircles />
