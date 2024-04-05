@@ -1,26 +1,15 @@
 import { backgroundWebConnect } from "../assets";
-import { whatsapp } from "../assets";
 import Button from "./Button";
 import Section from "./Section";
 import { BackgroundCircles, BottomLine } from "./design/Hero";
 import { heroIcons } from "../constants";
 import { ScrollParallax } from "react-just-parallax";
-import { useEffect, useRef, useState } from "react";
+import { useRef } from "react";
 import Notification from "./Notification";
 import WebconnectModel from "./WebconnectModel";
 
 const Hero = () => {
-  const [showNotification, setShowNotification] = useState(false);
   const parallaxRef = useRef(null);
-
-  useEffect(() => {
-    const timeout = setTimeout(() => {
-      setShowNotification(true);
-    }, 100);
-
-    return () => clearTimeout(timeout);
-  }, []);
-
   return (
     <Section
       className="pt-[12rem] -mt-[5.25rem] relative"
