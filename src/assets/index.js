@@ -1,5 +1,5 @@
 import webConnect from "./webConnect.png";
-import check from "./check.svg";
+import blueCheckbox from './blueCheckbox.svg';
 import brainwaveSymbol from "./brainwave-symbol.svg";
 import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
 import play from "./play.svg";
@@ -79,7 +79,7 @@ import whatsapp from "./whatsapp.png"
 
 export {
   webConnect,
-  check,
+  blueCheckbox,
   check2,
   loading1,
   brainwaveSymbol,

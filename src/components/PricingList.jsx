@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { check } from "../assets";
+import { blueCheckbox } from "../assets";
 import { pricing } from "../constants";
 import Button from "./Button";
 import { useAuth0 } from '@auth0/auth0-react'
@@ -54,7 +54,7 @@ const PricingList = () => {
                 key={index}
                 className="flex items-start py-4 border-t border-n-6"
               >
-                <img src={check} width={24} height={24} alt="Check" />
+                <img src={blueCheckbox} width={24} height={24} alt="Check" />
                 <p className="body-2 ml-4">{feature}</p>
               </li>
             ))}
