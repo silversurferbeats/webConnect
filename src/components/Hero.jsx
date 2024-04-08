@@ -6,7 +6,6 @@ import { heroIcons } from "../constants";
 import { ScrollParallax } from "react-just-parallax";
 import { useRef } from "react";
 import Notification from "./Notification";
-import WebconnectModel from "./WebconnectModel";
 import Model3D from "./Model3D";
 
 const Hero = () => {
@@ -44,7 +43,6 @@ const Hero = () => {
           <div className="relative z-1 p-0.5 rounded-2xl ">
             <div className="relative bg-n-8 rounded-[1rem]">
               <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
-                {/* <WebconnectModel /> */}
                 <Model3D />
                 <ScrollParallax isAbsolutelyPositioned>
                   <ul className="hidden absolute -left-[5.5rem] bottom-[7.5rem] px-1 py-1 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl xl:flex">
