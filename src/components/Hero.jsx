@@ -34,7 +34,7 @@ const Hero = () => {
             Comienza ahora
           </Button>
           <Notification
-            className="notification absolute left-20 lg:left-0 bottom-[20rem] lg:bottom-[0rem] w-[18rem] h-[6rem] xl:flex"
+            className="notification absolute left-[8rem] lg:left-0 bottom-[17rem] lg:bottom-[0rem] w-[18rem] h-[6rem] xl:flex"
             title="Contactanos por Whatsapp"
           />
         </div>
