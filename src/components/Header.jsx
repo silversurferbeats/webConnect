@@ -71,11 +71,11 @@ const Header = () => {
         </nav>
         <Profile />
         {isAuthenticated ? (
-          <Button className="ml-[11rem]" onClick={() => logout()}>
+          <Button className="ml-[11rem] md:ml-[0rem] md:btn-login" onClick={() => logout()}>
             Logout
           </Button>
         ) : (
-          <Button className="ml-[11rem]" onClick={() => loginWithRedirect()}>
+          <Button className="ml-[11rem] md:ml-[0rem] md:btn-login" onClick={() => loginWithRedirect()}>
             Login
           </Button>
         )}
