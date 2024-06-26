@@ -2,7 +2,7 @@ import { backgroundWebConnect } from "../assets";
 import Button from "./Button";
 import Section from "./Section";
 import { BackgroundCircles, BottomLine } from "./design/Hero";
-import { heroIcons } from "../constants";
+import { heroIcons, socials } from "../constants";
 import { ScrollParallax } from "react-just-parallax";
 import { useRef } from "react";
 import Notification from "./Notification";
@@ -23,12 +23,11 @@ const Hero = () => {
           <h1 className="h1 mb-6">
             Creamos tu presencia digital con {` `}
             <span className="inline-block relative text-blue-500">
-              Web {" "}
-              <span className="text-white">Connect</span>
+              Web <span className="text-white">Connect</span>
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-          tu socio en diseño y desarrollo web
+            tu socio en diseño y desarrollo web
           </p>
           <Button href="#roadmap" white>
             Comienza ahora
@@ -40,15 +39,24 @@ const Hero = () => {
         </div>
 
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
-          <div className="relative z-1 p-0.5 rounded-2xl ">
+          <div className="relative z-1 p-0.5 rounded-2xl">
             <div className="relative bg-n-8 rounded-[1rem]">
               <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
                 <Model3D />
                 <ScrollParallax isAbsolutelyPositioned>
                   <ul className="hidden absolute -left-[5.5rem] bottom-[7.5rem] px-1 py-1 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl xl:flex">
-                    {heroIcons.map((icon, index) => (
-                      <li className="p-5" key={index}>
-                        <img src={icon} width={24} height={25} alt={icon} />
+                    {socials.map((item, index) => (
+                      <li className="flex p-5 z-50" key={index}>                        
+                        <a
+                          href={item.url}
+                          className="group flex justify-center p-2 rounded-md drop-shadow-xl from-gray-800 bg-black text-white font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 hover:from-[#331029] hover:to-[#310413]"
+                          target="_blank"
+                        >
+                          <img src={item.iconUrl} width={20} height={20} alt={item.title} />
+                          <span className="absolute opacity-0 group-hover:opacity-100 group-hover:text-gray-500 group-hover:text-sm group-hover:-translate-y-10 duration-700">
+                            Siguenos!
+                          </span>
+                        </a>
                       </li>
                     ))}
                   </ul>
