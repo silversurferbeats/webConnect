@@ -212,7 +212,7 @@ export const pricing = [
     id: "0",
     title: "Basic",
     description: "Convierte clicks en clientes.",
-    price: "50000",
+    price: "100000",
     features: [
       "Sitio seguro con certificado de seguridad SSL",
       "Adaptable a dispositivos",
@@ -227,7 +227,7 @@ export const pricing = [
     id: "1",
     title: "Empresarial",
     description: "Crea una experiencia memorables para tus clientes.",
-    price: "100000",
+    price: "170000",
     features: [
       "Sitio seguro con certificado de seguridad SSL",
       "Hasta 10 secciones",
@@ -245,7 +245,7 @@ export const pricing = [
     id: "2",
     title: "E-commerce",
     description: "El futuro del comercio electronico, al alcance de tus manos.",
-    price: "150000",
+    price: "220000",
     features: [
       "Sistema autoadministrable",
       "Instructivo de uso",
