@@ -27,6 +27,7 @@ import {
   roadmap2,
   roadmap3,
   roadmap4,
+  roadmap5,
   cohete,
   searchMd,
   slack,
@@ -43,7 +44,7 @@ export const navigation = [
   },
   {
     id: "3",
-    title: "Proceso de creacion ",
+    title: "Proceso de creación",
     url: "#roadmap",
   },
   {
@@ -51,23 +52,6 @@ export const navigation = [
     title: "Paquetes Web",
     url: "#pricing",
   },
-  // {
-  //   id: "2",
-  //   title: "How to use",
-  //   url: "#how-to-use",
-  // },
-  // {
-  //   id: "4",
-  //   title: "New account",
-  //   url: "#signup",
-  //   onlyMobile: true,
-  // },
-  // {
-  //   id: "5",
-  //   title: "Sign in",
-  //   url: "#login",
-  //   onlyMobile: true,
-  // },
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
@@ -102,7 +86,7 @@ export const roadmap = [
   },
   {
     id: "1",
-    title: "Tiempo Estimado y Aprovacion",
+    title: "Tiempo Estimado y Aprobación",
     text: "El equipo de desarrollo web evalúa los requisitos del proyecto y proporciona al cliente un estimado del tiempo necesario para completar el trabajo. Una vez que se establece un acuerdo sobre el alcance del proyecto y los plazos, el cliente aprueba formalmente el plan propuesto.",
     date: "paso 2",
     status: "progress",
@@ -124,7 +108,7 @@ export const roadmap = [
     text: "En esta etapa final, el sitio web completado se somete a pruebas exhaustivas para garantizar su funcionamiento óptimo en diferentes dispositivos y navegadores. Una vez que se han realizado todas las correcciones y se ha obtenido la aprobación final del cliente, el sitio se lanza oficialmente y se pone a disposición del público.",
     date: "paso 4",
     status: "done",
-    imageUrl: cohete,
+    imageUrl: roadmap5,
     colorful: true,
   },
 ];
