@@ -28,6 +28,7 @@ import {
   roadmap3,
   roadmap4,
   roadmap5,
+  roadmap6,
   cohete,
   searchMd,
   slack,
@@ -108,7 +109,7 @@ export const roadmap = [
     text: "En esta etapa final, el sitio web completado se somete a pruebas exhaustivas para garantizar su funcionamiento óptimo en diferentes dispositivos y navegadores. Una vez que se han realizado todas las correcciones y se ha obtenido la aprobación final del cliente, el sitio se lanza oficialmente y se pone a disposición del público.",
     date: "paso 4",
     status: "done",
-    imageUrl: roadmap5,
+    imageUrl: roadmap6,
     colorful: true,
   },
 ];

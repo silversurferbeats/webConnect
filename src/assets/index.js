@@ -43,6 +43,7 @@ import roadmap2 from "./roadmap/image-2.png";
 import roadmap3 from "./roadmap/image-3.png";
 import roadmap4 from "./roadmap/image-4.png";
 import roadmap5 from "./roadmap/image-lanzamiento.png";
+import roadmap6 from "./roadmap/LanzamientoSF.png";
 import cohete from "./roadmap/coheteLanzamiento.png"
 import undone from "./roadmap/undone.svg";
 
@@ -111,6 +112,7 @@ export {
   roadmap3,
   roadmap4,
   roadmap5,
+  roadmap6,
   cohete,
   undone,
   notification1,
